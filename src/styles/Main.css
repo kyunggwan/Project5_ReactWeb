@@ -1,0 +1,18 @@
+.Main {
+  background-color: #C7E579;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;  
+  font-family: 'Jua';
+
+}
+
+.Main > section {
+  width: 25%;
+  margin: 20px;
+}
+
+.Main img {
+  border-radius: 30%;
+}
+

@@ -1,0 +1,44 @@
+/*전체 적용*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*레이아웃*/
+.Nav {
+  background-color: #2EE193;
+  display: flex; /*flex 옆으로 배열*/
+  justify-content: space-between; /*알아서 간격 멀어져서 화면 맞춤*/
+  height: 40px;
+  padding: 20px;
+  font-size: x-large;
+  color: white;
+
+  top: 0px;
+  position: sticky;
+}
+.Nav a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+.Nav a:hover {
+  background-color: red;
+  color: white;
+}
+
+.Nav li {
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Nav > ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav_icon{
+  font-size: 20px;
+}

@@ -1,0 +1,21 @@
+
+.Footer {
+  background-color:#F3E482;
+  color: black;
+  display: flex;
+  padding:30px;
+  bottom: 0px;
+  position: sticky;
+}
+
+.Footer > h2, footer > ul{
+  margin: 10px;
+}
+
+.Footer > ul {
+  list-style-type: none;
+}
+
+
+  
+
