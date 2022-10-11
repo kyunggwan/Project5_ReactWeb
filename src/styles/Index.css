@@ -11,6 +11,7 @@
 <script src="https://kit.fontawesome.com/779a1104ec.js" crossorigin="anonymous"></script>
 </div> 
 */
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic:wght@400;700;800&family=Single+Day&display=swap" );
 
 
 /*미디어 쿼리, 사이즈가 작아지면 아래 배열로 바꿈.*/
@@ -31,5 +32,6 @@
   }
    .Footer {
       display : none;
+      font-family: sans-serif;
    }
  }

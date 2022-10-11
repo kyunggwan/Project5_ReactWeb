@@ -28,7 +28,7 @@ function Mysection1(probs) {
         <div><img src={imgName} alt={probs.h1} /></div>
         <div className='content'>
           <h1>HTML</h1>
-          <p>pContent{[probs.h1]}</p>
+          <p>{pContent[probs.h1]}</p>
         </div>
       </section>
     </>
