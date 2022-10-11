@@ -8,10 +8,11 @@ import Mysection4 from './Mysection4';
 function MyMain() {
   return ( 
    <div className='Main'>
-   <Mysection1 />
-   <Mysection2 />
-   <Mysection3 />
-   <Mysection4 />
+   {/*!--h1이라는 속성값이 달렷다 */}
+   <Mysection1 h1="HTML" />
+   <Mysection1 h1="CSS" />
+   <Mysection1 h1="JavaScript" />
+   <Mysection1 h1="React" />
    </div>
  );
 }
