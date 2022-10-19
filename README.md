@@ -9,7 +9,7 @@
 + project1_web
 ### CSS
 + project1_web
-### React.js
+### React
 + import image
 
 
